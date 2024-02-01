@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+:root {
+  --size: 100px;
+  --white: #fff;
+  --black: #000;
+  --font1: 'Carlito', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 1.2rem;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background: url("https://images.pexels.com/photos/7203982/pexels-photo-7203982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat;
+  background-size: 100%;
+  backdrop-filter: blur(7px);
+}
+
+.container {
+  width: 80vw;
+  display: grid;
+  grid-template: 40% 40% / 40% 40%;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;}
+
+  & .box {
+    padding: 1em;
+    block-size: auto;
+    overflow: hidden;
+    border-radius: 10%;
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--font1);
+    animation: myim 3s linear;
+    box-shadow: 1px 1px 20px 4px black;
+    transition: 0.3s linear;
+    transition-delay: 0.5;}
+
+    &:hover {
+      box-shadow: 1px 1px 1px 3px black;
+      transform: scale(1.01);
+    }
+
+    & p {
+      padding: 1em 3px;
+      cursor: pointer;
+      margin-bottom: 2em;
+    }
