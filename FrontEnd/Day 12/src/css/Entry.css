@@ -1,0 +1,42 @@
+/* Entry.css */
+
+.app {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    background: rgb(99,92,217);
+    background: linear-gradient(90deg, rgba(99,92,217,1) 0%, rgba(101,155,222,1) 96%, rgba(53,138,156,0.874562324929972) 100%);
+}
+  
+  .container {
+    width: 20%; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  
+  }
+  
+  /* Add other styling as needed */
+  /* .page-background {
+    background: rgb(90,107,193);
+    background: radial-gradient(circle, rgba(90,107,193,1) 0%, rgba(90,154,230,1) 100%);} */
+  
+  .entry-page {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+  }
+  
+  .entry-container {
+    width: 30%; /* Adjust the width of each container as needed */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  /* body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgb(90,107,193);
+  background: radial-gradient(circle, rgba(90,107,193,1) 0%, rgba(90,154,230,1) 100%);
+  } */
