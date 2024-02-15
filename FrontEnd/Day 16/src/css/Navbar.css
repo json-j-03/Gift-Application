@@ -1,0 +1,33 @@
+/* Navbar.css */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: grey;
+	color: #fff;
+	padding: 10px;
+  }
+  
+  .toggle-button {
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  .header-links {
+	display: flex;
+	gap: 20px;
+  }
+  
+  .nav-link {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+	color: #ffcc00; /* Change the color on hover as per your design */
+  }
+  

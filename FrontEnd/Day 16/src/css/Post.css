@@ -1,0 +1,113 @@
+/* Post.css */
+.post-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    /* width: 00px; */
+    /* background-image: url('https://rare-gallery.com/mocahbig/75689-Love-HeartGift-4k-Ultra-HD-Wallpaper.jpg'); */
+    background-image: url('../assets/gift.jpg');
+    background-size: cover; /* Ensure the background image covers the container */
+  }
+  
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    width: 800px; /* Adjust as needed */
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent white background */
+  }
+  
+  .form-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .details-container {
+    flex: 1;
+  }
+  
+  .post-form textarea,
+  .post-form input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  .post-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .post-list li {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .post-list button {
+    margin-top: 5px;
+  } */
+  
+  .post-list strong {
+    margin-top: 10px;
+  }
+  
+.post-list button {
+    margin-top: 5px;
+    background-color: blue; /* Set the button background color to blue */
+    color:white; 
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .post-list button:hover {
+    background-color: darkblue; /* Change the background color on hover */
+  }
+  .post-form button {
+    margin-top: 5px;
+    background-color:rgb(46, 152, 187); /* Set the button background color to blue */
+    color: rgb(255, 255, 255); /* Set the text color to white for better contrast */
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .post-form button:hover {
+    background-color: darkblue; /* Change the background color on hover */
+  }
+  
+  .post-list li {
+    border: 1px solid #010000b1;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-list button {
+    background-color: rgb(46, 152, 187); /* Set the button background color to blue */
+    color: white; /* Set the text color to white for better contrast */
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .post-list button:hover {
+    background-color: darkblue; /* Change the background color on hover */
+  }
+  
+  .post-list strong {
+    margin-top: 10px;
+  }

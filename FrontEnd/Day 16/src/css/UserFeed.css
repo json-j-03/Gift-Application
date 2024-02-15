@@ -1,0 +1,47 @@
+UserFeed.css
+
+/* Center the table */
+.user-feed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will center the container vertically on the page */
+  }
+  .user-feed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/2046220/pexels-photo-2046220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover; /* This will make the background image cover the entire container */
+    background-position: center; /* Center the background image */
+  }
+  
+  /* Style the table */
+  .user-feed-table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #ddd;
+  }
+  
+  .user-feed-th, .user-feed-td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style the table header */
+  .user-feed-thead {
+    background-color: #f2f2f2;
+  }
+  
+  /* Alternate row background color for better readability */
+  .user-feed-tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect on table rows */
+  .user-feed-tbody tr:hover {
+    background-color: #ddd;
+  }
+  
